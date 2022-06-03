@@ -22,7 +22,7 @@ function GetAllCharacters () {
                     <p>{characters.name}</p>
                     <ul>
                         {characters.map((char,index)=> {
-                            return <li key={index}>{char.id} {char.name}</li>
+                            return <li key={index}>{char.name}</li>
                         })}
                     </ul>
                     {/* {setCharacters.map(home => <div>{home.name}</div>)} */}
